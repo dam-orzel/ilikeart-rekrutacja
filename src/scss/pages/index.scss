@@ -8,7 +8,7 @@
 
 
 header {
-    height: 90vh;
+    min-height: 90vh;
     background: url("../img/bg/bg2.jpg"), url("img/bg/bg2.jpg");
     background-size: cover;
     background-position: center;
@@ -109,6 +109,7 @@ header {
         display: flex;
         justify-content: space-between;
         margin-top: 140px;
+        padding-bottom: 40px;
 
         img {
             width: 100px;
@@ -159,6 +160,7 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
 
 
         .box {
@@ -274,7 +276,7 @@ main {
         position: relative;
 
         .footer-box {
-            height: 60vh;
+            min-height: 60vh;
             display: flex;
             flex-direction: row;
             align-items: center;
