@@ -34,8 +34,8 @@ var config = {
     scssout: 'src/css/',
     cssoutname: 'style.css',
     jsoutname: 'bundle.js',
-    cssreplaceout: 'css/style.css',
-    jsreplaceout: 'js/bundle.js'
+    cssreplaceout: '../css/style.css',
+    jsreplaceout: '../js/bundle.js'
 };
 
 // Watch & AutoReload
