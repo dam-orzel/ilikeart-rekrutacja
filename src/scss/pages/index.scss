@@ -30,6 +30,7 @@ header {
             }
 
             span {
+                cursor: default;
                 font-size: 38px;
                 font-weight: 200;
                 color: rgba(255, 255, 255, 0.6);
@@ -107,10 +108,11 @@ header {
     section.partner-logos {
         display: flex;
         justify-content: space-between;
-        margin-top: 80px;
+        margin-top: 140px;
 
         img {
             width: 100px;
+            height: 80px;
         }
     }
 
@@ -198,6 +200,20 @@ main {
                 text-align: center;
                 color: $white;
                 text-decoration: none;
+
+                &:hover .fas {
+                    position: absolute;
+                    left: 205px;
+                }
+
+                .fas {
+                    position: absolute;
+                    color: #52eac8;
+                    top: 51%;
+                    left: 195px;
+                    transform: translate(-50%, -50%);
+                    transition: 0.2s linear;
+                }
             }
         }
     }
@@ -255,6 +271,7 @@ main {
         background: url("../img/bg/bg1.jpg"), url("img/bg/bg1.jpg");
         background-size: cover;
         background-position: center;
+        position: relative;
 
         .footer-box {
             height: 60vh;
@@ -344,11 +361,11 @@ main {
                             &:focus {
                                 transition: 0.3s;
                                 outline: none;
-                                border-bottom: 2px solid #7dbd6e;
                             }
 
                             &:focus+label,
-                            &:valid+label {
+                            &:valid+label,
+                            &[pattern]:invalid+label {
                                 position: absolute;
                                 top: -10px;
                                 left: 0;
@@ -390,7 +407,8 @@ main {
                         display: flex;
                         justify-content: flex-end;
 
-                        button {
+                        input {
+                            width: 25%;
                             text-transform: uppercase;
                             background: none;
                             border: 1px solid #7dbd6e;
@@ -399,16 +417,24 @@ main {
                             color: #7dbd6e;
                             font-weight: bold;
                             cursor: pointer;
-                            transition: 0.1s;
+                            transition: 0.3s;
 
                             &:hover {
-                                margin: -1px;
-                                border: 2px solid #7dbd6e;
+                                border-radius: 15px;
                             }
                         }
                     }
                 }
             }
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 40px;
+            left: 150px;
+            color: $white;
+            font-size: 12px;
+            text-transform: uppercase;
         }
 
     }
