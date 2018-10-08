@@ -1,0 +1,45 @@
+{
+  "name": "delivly",
+  "version": "1.0.0",
+  "description": "authors:\r Front-End Developer: Damian\r Back-End Developer: Patryk, Sławek\r Designer: Michał\r Founder: Dawid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AzotoN1@bitbucket.org/thegame-didul/delivly.git"
+  },
+  "keywords": [
+    "delivly",
+    "game",
+    "economy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/thegame-didul/delivly#readme",
+  "dependencies": {
+    "@cedx/gulp-php-minify": "^8.0.0",
+    "breakpoint-sass": "^2.7.1",
+    "gulp": "^3.9.1",
+    "gulp-wait": "0.0.2",
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {
+    "@aquafadas/gulp-php-minify": "^0.3.1",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "run-sequence": "^2.2.1"
+  }
+}

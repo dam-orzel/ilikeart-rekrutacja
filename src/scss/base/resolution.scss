@@ -1,0 +1,8 @@
+@import '../../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
+$dev-xss: max-width 399px;
+$dev-xs: 400px 575px;
+$dev-sm: 576px 767px;
+$dev-md: 768px 991px;
+$dev-lg: 992px 1199px;
+$dev-xl: min-width 1200px;
+$ix: (width 375px) and (height 812px);
