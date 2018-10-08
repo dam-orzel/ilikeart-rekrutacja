@@ -24,8 +24,8 @@ var config = {
     srcpage: 'src/pages',
     cssin: 'src/css/main.css',
     jsin: 'src/js/**/*.js',
-    imgin: 'src/img/**/*.{jpg,png,jpeg,gif}',
-    htmlin: 'src/{pages,php}/**/*.{html,php}',
+    imgin: 'src/img/**/*.{jpg,png,jpeg,gif,svg}',
+    htmlin: 'src/**/*.{html,php}',
     scssin: 'src/scss/**/*.scss',
     cssout: 'dist/css',
     jsout: 'dist/js',
@@ -34,8 +34,8 @@ var config = {
     scssout: 'src/css/',
     cssoutname: 'style.css',
     jsoutname: 'bundle.js',
-    cssreplaceout: '../css/style.css',
-    jsreplaceout: '../js/bundle.js'
+    cssreplaceout: 'css/style.css',
+    jsreplaceout: 'js/bundle.js'
 };
 
 // Watch & AutoReload
